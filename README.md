@@ -8,9 +8,18 @@ BasicSR (**Basic** **S**uper **R**estoration) is an open source **image and vide
 <sub>([HandyView](https://github.com/xinntao/HandyView), [HandyFigure](https://github.com/xinntao/HandyFigure), [HandyCrawler](https://github.com/xinntao/HandyCrawler), [HandyWriting](https://github.com/xinntao/HandyWriting))</sub>
 
 ## RCAN Usage
+### train
 ```python
 python basicsr/train.py -opt option/train/RCAN/train_RCAN_x2.yml
 ```
+### test
+```python
+python basicsr/test.py -opt option/test/RCAN/test_RCAN.yml
+```
+## Kernel Degradation
+Please see the function **'SRMDPreprocessing'** in basicsr.utils.srmd_util file
+
+
 
 ## :scroll: License and Acknowledgement
 
@@ -34,6 +43,3 @@ The following is a BibTeX reference. The BibTeX entry requires the `url` LaTeX p
 
 > Xintao Wang, Ke Yu, Kelvin C.K. Chan, Chao Dong and Chen Change Loy. BasicSR. https://github.com/xinntao/BasicSR, 2020.
 
-## :e-mail: Contact
-
-If you have any question, please email `xintao.wang@outlook.com`.
