@@ -7,6 +7,10 @@ BasicSR (**Basic** **S**uper **R**estoration) is an open source **image and vide
 <sub>([ESRGAN](https://github.com/xinntao/ESRGAN), [EDVR](https://github.com/xinntao/EDVR), [DNI](https://github.com/xinntao/DNI), [SFTGAN](https://github.com/xinntao/SFTGAN))</sub>
 <sub>([HandyView](https://github.com/xinntao/HandyView), [HandyFigure](https://github.com/xinntao/HandyFigure), [HandyCrawler](https://github.com/xinntao/HandyCrawler), [HandyWriting](https://github.com/xinntao/HandyWriting))</sub>
 
+## RCAN Usage
+    ```python
+    python basicsr/train.py -opt option/train/RCAN/train_RCAN_x2.yml
+    ```
 
 ## :scroll: License and Acknowledgement
 
